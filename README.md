@@ -1,7 +1,7 @@
-CornerCouch
-===========
+CornerCouch CORS
+================
 
-CornerCouch - AngularJS module for CouchDB
+CornerCouch CORS - AngularJS module for CouchDB with full CORS support
 
 **Make sure to check the [Wiki](https://github.com/eddelplus/CornerCouch/wiki) on GitHub for more information**
 
@@ -24,6 +24,9 @@ Bugs and Fixes
 --------------
 
 ###Please report any problems to me via e-mail.
+
+####2013-08-19
+Added CORS support for CouchDB 1.3 by adding withCredentials=true parameter in xhr
 
 ####2013-03-15
 Bug (typo) in CouchDoc.detach(name) fixed, test now included in sample app on IrisCouch.  
